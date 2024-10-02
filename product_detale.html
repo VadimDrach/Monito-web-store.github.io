@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Product</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20241002142748">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header" id="header">
+			<div class="header__container">
+				<div class="header__block-left">
+					<a href="home.html" class="header__block-logo" title="Main page">
+						<img src="img/01.header/Logo.webp" alt="Image">
+					</a>
+					<div class="header__menu menu">
+						<button type="button" class="menu__icon icon-menu"><span></span></button>
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item"><a href="home.html" target="_self" class="menu__link">Home</a></li>
+
+								<li class="menu__item"><a href="category.html" target="_blank" class="menu__link">Category</a></li>
+
+								<li class="menu__item"><a href="#" class="menu__link">About</a></li>
+
+								<li class="menu__item"><a href="#" class="menu__link">Contact</a></li>
+							</ul>
+
+							<div class="header__block-rightTablet"></div>
+						</nav>
+					</div>
+
+					<button id="toggleButton" class="header__block-search _icon-search1"></button>
+				</div>
+				<div class="header__block-right">
+					<form action="#" class="header__block-form">
+						<button type="submit" class="header__block-btn _icon-search1"></button>
+						<input type="text" class="header__block-input" placeholder="Search something here!">
+					</form>
+
+					<button data-da=".header__block-rightTablet,991," class="header__block-btnJoin">Join the Commynity</button>
+
+					<div data-da=".header__block-rightTablet,991," class="dropdown">
+						<div class="dropdown-btn">
+							<img class="dropcontent-image" src="img/01.header/united-kingdom.webp" alt="Image">
+							En
+						</div>
+						<div class="dropdown-content">
+							<a href="#" data-lang="En"><img class="dropcontent-image" src="img/01.header/united-kingdom.webp" alt="Image"> En</a>
+							<a href="#" data-lang="Kz"><img class="dropcontent-image" src="img/01.header/kazakhstan.webp" alt="Image"> Kz</a>
+							<a href="#" data-lang="Uk"><img class="dropcontent-image" src="img/01.header/ukraine.webp" alt="Image"> Uk</a>
+							<!-- Добавьте другие языки по необходимости -->
+						</div>
+					</div>
+				</div>
+				<div id="hiddenBlock" class="header__blockSearch-tablet">
+					<form action="#" class="header__block-form header__input-tablet">
+						<button type="submit" class="header__block-btn _icon-search1"></button>
+						<input type="text" class="header__block-input" placeholder="Search something here!">
+					</form>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<section class="product">
+				<div class="product__container">
+					<div class="product__main main-product">
+						<div class="main-product__images images-product">
+							<!-- Основной слайдер -->
+							<div class="images-product__slider swiper">
+								<div class="images-product__wrapper swiper-wrapper">
+									<div class="images-product__slide-ibg swiper-slide">
+										<img src="img/03-01.Product-detale/image1.webp" alt="Image">
+									</div>
+									<div class="images-product__slide-ibg swiper-slide">
+										<img src="img/03-01.Product-detale/main-product-slider/shiba2.webp" alt="Image">
+									</div>
+									<div class="images-product__slide-ibg swiper-slide">
+										<img src="img/03-01.Product-detale/main-product-slider/shiba3.webp" alt="Image">
+									</div>
+									<div class="images-product__slide-ibg swiper-slide">
+										<img src="img/03-01.Product-detale/main-product-slider/shiba4.webp" alt="Image">
+									</div>
+									<div class="images-product__slide-ibg swiper-slide">
+										<img src="img/03-01.Product-detale/main-product-slider/shiba5.webp" alt="Image">
+									</div>
+								</div>
+								<!-- Кнопки навигации -->
+								<div class="swiper-button-next"></div>
+								<div class="swiper-button-prev"></div>
+							</div>
+
+							<!-- Слайдер миниатюр -->
+							<div class="images-product__thumbs swiper thumbs-images">
+								<div class="thumbs-images__wrapper swiper-wrapper">
+									<div class="thumbs-images__slide-ibg swiper-slide">
+										<img src="img/03-01.Product-detale/image1.webp" alt="Image">
+									</div>
+									<div class="thumbs-images__slide-ibg swiper-slide">
+										<img src="img/03-01.Product-detale/main-product-slider/shiba2.webp" alt="Image">
+									</div>
+									<div class="thumbs-images__slide-ibg swiper-slide">
+										<img src="img/03-01.Product-detale/main-product-slider/shiba3.webp" alt="Image">
+									</div>
+									<div class="thumbs-images__slide-ibg swiper-slide">
+										<img src="img/03-01.Product-detale/main-product-slider/shiba4.webp" alt="Image">
+									</div>
+									<div class="thumbs-images__slide-ibg swiper-slide">
+										<img src="img/03-01.Product-detale/main-product-slider/shiba5.webp" alt="Image">
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="main-product-detailes">
+							<div class="main-product-inform">
+								<div class="main-product-item">
+									<img src="img/03-01.Product-detale/Frame1.webp" alt="Image">
+									<p class="main-product-text">100% health guarantee for pets</p>
+								</div>
+								<div class="main-product-item">
+									<img src="img/03-01.Product-detale/Frame2.webp" alt="Image">
+									<p class="main-product-text">100% guarantee of pet identification</p>
+								</div>
+							</div>
+							<div class="main-product__shares">
+								<div class="main-product__socialsShare">
+									<img src="img/03-01.Product-detale/Share_Android.webp" alt="Image">
+									<p class="main-product__socialText">Share:</p>
+								</div>
+
+								<div class="main-product__socials">
+									<li class="main-product__socialItem">
+										<a href="#" class="main-product__socialLink _icon-Facebook"></a>
+									</li>
+									<li class="main-product__socialItem">
+										<a href="#" class="main-product__socialLink _icon-Twitter"></a>
+									</li>
+									<li class="main-product__socialItem">
+										<a href="#" class="main-product__socialLink _icon-Instagram"></a>
+									</li>
+									<li class="main-product__socialItem">
+										<a href="#" class="main-product__socialLink _icon-Youtube"></a>
+									</li>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="product__content">
+						<div class="product__content-breadcrumbs">
+							<nav class="category__breadcrumbs-nav" aria-label="breadcrumb">
+								<ul class="category__breadcrumbs-list">
+									<li class="category__breadcrumbs-item">
+										<a href="#" class="category__breadcrumbs-link">Home</a>
+									</li>
+									<li class="category__breadcrumbs-item">
+										<a href="#" class="category__breadcrumbs-link">Dog</a>
+									</li>
+									<li class="category__breadcrumbs-item">
+										<a href="#" class="category__breadcrumbs-link">Large Dog</a>
+									</li>
+									<li class="category__breadcrumbs-item">
+										Shiba Inu Sepia
+									</li>
+								</ul>
+							</nav>
+						</div>
+
+						<div class="product__content-mainInfo">
+							<p class="product__content-number">SKU #1000078</p>
+							<h4 class="product__content-name">Shiba Inu Sepia</h4>
+							<p class="product__content-price">34.000.000 VND</p>
+						</div>
+
+						<div class="product__content-buttons">
+							<a href="#" class="product__content-btn1">Contact us</a>
+							<a href="#" class="product__content-btn2">
+								<img src="img/03-01.Product-detale/image-decore.webp" alt="Image">
+								<p>Chat with Monito</p>
+							</a>
+						</div>
+
+						<div class="product__content-detailedInfo">
+							<div class="product__content-detailedItem">
+								<p class="product__content-detailedTitle">SKU</p>
+								<p class="product__content-value">: #1000078</p>
+							</div>
+
+							<div class="product__content-detailedItem">
+								<p class="product__content-detailedTitle">Gender</p>
+								<p class="product__content-value">: Female</p>
+							</div>
+
+							<div class="product__content-detailedItem">
+								<p class="product__content-detailedTitle">Age</p>
+								<p class="product__content-value">: 2 Month</p>
+							</div>
+
+							<div class="product__content-detailedItem">
+								<p class="product__content-detailedTitle">Size</p>
+								<p class="product__content-value">: Small</p>
+							</div>
+
+							<div class="product__content-detailedItem">
+								<p class="product__content-detailedTitle">Color</p>
+								<p class="product__content-value">: Appricot & Tan</p>
+							</div>
+
+							<div class="product__content-detailedItem">
+								<p class="product__content-detailedTitle">Vaccinated</p>
+								<p class="product__content-value">: Yes</p>
+							</div>
+
+							<div class="product__content-detailedItem">
+								<p class="product__content-detailedTitle">Dewormed</p>
+								<p class="product__content-value">: Yes</p>
+							</div>
+
+							<div class="product__content-detailedItem">
+								<p class="product__content-detailedTitle">Cert</p>
+								<p class="product__content-value">: Yes (MKA)</p>
+							</div>
+
+							<div class="product__content-detailedItem">
+								<p class="product__content-detailedTitle">Microchip</p>
+								<p class="product__content-value">: Yes</p>
+							</div>
+
+							<div class="product__content-detailedItem">
+								<p class="product__content-detailedTitle">Location</p>
+								<p class="product__content-value">: Vietnam</p>
+							</div>
+
+							<div class="product__content-detailedItem">
+								<p class="product__content-detailedTitle">Published Date</p>
+								<p class="product__content-value">: 12-Oct-2024</p>
+							</div>
+
+							<div class="product__content-detailedItem">
+								<p class="product__content-detailedTitle">Additional Information</p>
+								<p class="product__content-value">: Pure breed SHih Tzu.
+									Good body structure.
+									With MKA cert and Miccrochip.
+									Father from champion lineage.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="lovelyCustomers">
+				<div class="lovelyCustomers__container">
+					<div class="lovelyCustomers__header">
+						<h4 class="lovelyCustomers__title">Our lovely customer</h4>
+					</div>
+					<div class="lovelyCustomers__slaider-body">
+						<div class="lovelyCustomers__slider swiper">
+							<div class="lovelyCustomers__wrapper swiper-wrapper">
+								<div class="lovelyCustomers__slide swiper-slide">
+									<img src="img/03-01.Product-detale\ourcustomers/cus1.webp" alt="Image">
+								</div>
+								<div class="lovelyCustomers__slide swiper-slide">
+									<img src="img/03-01.Product-detale\ourcustomers/cus2.webp" alt="Image">
+								</div>
+								<div class="lovelyCustomers__slide swiper-slide">
+									<img src="img/03-01.Product-detale\ourcustomers/cus3.webp" alt="Image">
+								</div>
+								<div class="lovelyCustomers__slide swiper-slide">
+									<img src="img/03-01.Product-detale\ourcustomers/cus4.webp" alt="Image">
+								</div>
+								<div class="lovelyCustomers__slide swiper-slide">
+									<img src="img/03-01.Product-detale\ourcustomers/cus5.webp" alt="Image">
+								</div>
+
+								<div class="lovelyCustomers__slide swiper-slide">
+									<img src="img/03-01.Product-detale\ourcustomers/cus1.webp" alt="Image">
+								</div>
+								<div class="lovelyCustomers__slide swiper-slide">
+									<img src="img/03-01.Product-detale\ourcustomers/cus2.webp" alt="Image">
+								</div>
+								<div class="lovelyCustomers__slide swiper-slide">
+									<img src="img/03-01.Product-detale\ourcustomers/cus3.webp" alt="Image">
+								</div>
+								<div class="lovelyCustomers__slide swiper-slide">
+									<img src="img/03-01.Product-detale\ourcustomers/cus4.webp" alt="Image">
+								</div>
+								<div class="lovelyCustomers__slide swiper-slide">
+									<img src="img/03-01.Product-detale\ourcustomers/cus5.webp" alt="Image">
+								</div>
+							</div>
+
+
+						</div>
+						<div class="swiper-pagination"></div>
+					</div>
+				</div>
+			</section>
+
+			<section class="whatsNew">
+				<div class="whatsNew__container">
+					<div class="whatsNew__header">
+						<p class="whatsNew__subtitle">Whats New?</p>
+						<h4 class="whatsNew__title">See More Puppies</h4>
+					</div>
+					<div class="whatsNew__body">
+						<a href="#" class="shop__card-link">
+							<div class="shop__body-card">
+								<div class="shop__card-img">
+									<img src="img/03.shop/1.webp" alt="Image">
+								</div>
+								<div class="shop__card-content">
+									<div class="shop__card-name">
+										MO231 - Pomeranian White
+									</div>
+									<div class="shop__card-parametrs">
+										<div class="shop__card-gene">
+											<div class="shop__card-param">Gene:</div>
+											<div class="shop__card-value">Male</div>
+										</div>
+										<div class="shop__card-decore">
+
+										</div>
+										<div class="shop__card-age">
+											<div class="shop__card-param">Age:</div>
+											<div class="shop__card-value">02 months</div>
+										</div>
+									</div>
+									<div class="shop__card-price">6.900.000 VND</div>
+								</div>
+							</div>
+						</a>
+
+						<a href="#" class="shop__card-link">
+							<div class="shop__body-card">
+								<div class="shop__card-img">
+									<img src="img/03.shop/2.webp" alt="Image">
+								</div>
+								<div class="shop__card-content">
+									<div class="shop__card-name">
+										MO231 - Pomeranian White
+									</div>
+									<div class="shop__card-parametrs">
+										<div class="shop__card-gene">
+											<div class="shop__card-param">Gene:</div>
+											<div class="shop__card-value">Male</div>
+										</div>
+										<div class="shop__card-decore">
+
+										</div>
+										<div class="shop__card-age">
+											<div class="shop__card-param">Age:</div>
+											<div class="shop__card-value">02 months</div>
+										</div>
+									</div>
+									<div class="shop__card-price">6.900.000 VND</div>
+								</div>
+							</div>
+						</a>
+
+						<a href="#" class="shop__card-link">
+							<div class="shop__body-card">
+								<div class="shop__card-img">
+									<img src="img/03.shop/3.webp" alt="Image">
+								</div>
+								<div class="shop__card-content">
+									<div class="shop__card-name">
+										MO231 - Pomeranian White
+									</div>
+									<div class="shop__card-parametrs">
+										<div class="shop__card-gene">
+											<div class="shop__card-param">Gene:</div>
+											<div class="shop__card-value">Male</div>
+										</div>
+										<div class="shop__card-decore">
+
+										</div>
+										<div class="shop__card-age">
+											<div class="shop__card-param">Age:</div>
+											<div class="shop__card-value">02 months</div>
+										</div>
+									</div>
+									<div class="shop__card-price">6.900.000 VND</div>
+								</div>
+							</div>
+						</a>
+
+						<a href="#" class="shop__card-link">
+							<div class="shop__body-card">
+								<div class="shop__card-img">
+									<img src="img/03.shop/4.webp" alt="Image">
+								</div>
+								<div class="shop__card-content">
+									<div class="shop__card-name">
+										MO231 - Pomeranian White
+									</div>
+									<div class="shop__card-parametrs">
+										<div class="shop__card-gene">
+											<div class="shop__card-param">Gene:</div>
+											<div class="shop__card-value">Male</div>
+										</div>
+										<div class="shop__card-decore">
+
+										</div>
+										<div class="shop__card-age">
+											<div class="shop__card-param">Age:</div>
+											<div class="shop__card-value">02 months</div>
+										</div>
+									</div>
+									<div class="shop__card-price">6.900.000 VND</div>
+								</div>
+							</div>
+						</a>
+
+					</div>
+				</div>
+			</section>
+
+			<button onclick="scrollToTop()" id="scrollTopBtn" title="Наверх">↑</button>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__register">
+					<div class="footer__register-content">
+						<p>
+							Register now so you don't miss our programs
+						</p>
+					</div>
+					<div class="footer__register-inputField">
+						<input autocomplete="off" type="text" name="form[]" data-error="Помилка" placeholder="Enter your Email" class="footer__register-input">
+						<button type="submit" class="footer__register-btn">Subscribe Now</button>
+					</div>
+				</div>
+				<div class="footer__firstFloor">
+					<div class="footer__firstFloor-menu">
+						<ul class="footer__firstFloor-list">
+							<li class="footer__firstFloor-item">
+								<a href="home.html" class="footer__firstFloor-link">Home</a>
+							</li>
+							<li class="footer__firstFloor-item">
+								<a href="category.html" class="footer__firstFloor-link">Category</a>
+							</li>
+							<li class="footer__firstFloor-item">
+								<a href="#" class="footer__firstFloor-link">About</a>
+							</li>
+							<li class="footer__firstFloor-item">
+								<a href="#" class="footer__firstFloor-link">Contact</a>
+							</li>
+						</ul>
+					</div>
+
+					<div class="footer__firstFloor-socials">
+						<ul class="footer__firstFloor-socialList">
+							<li class="footer__firstFloor-socialItem">
+								<a href="#" class="footer__firstFloor-socialLink _icon-Facebook" title="Facebook"></a>
+							</li>
+
+							<li class="footer__firstFloor-socialItem">
+								<a href="#" class="footer__firstFloor-socialLink _icon-Twitter" title="Twitter"></a>
+							</li>
+
+							<li class="footer__firstFloor-socialItem">
+								<a href="#" class="footer__firstFloor-socialLink _icon-Instagram" title="Instagram"></a>
+							</li>
+
+							<li class="footer__firstFloor-socialItem">
+								<a href="#" class="footer__firstFloor-socialLink _icon-Youtube" title="YouTube"></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="footer__secondFloor">
+					<p class="footer__secondFloor-rights">
+						© 2022 Monito. All rights reserved.
+					</p>
+
+					<a href="#" class="footer__secondFloor-logo">
+						<img src="img/09.footer/footer-logo.webp" alt="Image">
+					</a>
+
+					<div class="footer__secondFloor-details">
+						<a href="#" class="footer__secondFloor-detailsLink">Terms of Service</a>
+						<a href="#" class="footer__secondFloor-detailsLink">Privacy Policy</a>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="js/app.min.js?_v=20241002142748"></script>
+
+	<script>
+		// Показать кнопку, когда прокручено больше 20px от верха
+		window.onscroll = function() {
+			scrollFunction();
+		};
+
+		function scrollFunction() {
+			const scrollTopBtn = document.getElementById("scrollTopBtn");
+			if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+				scrollTopBtn.style.display = "block";
+			} else {
+				scrollTopBtn.style.display = "none";
+			}
+		}
+
+		// Прокрутить страницу вверх при нажатии на кнопку
+		function scrollToTop() {
+			document.body.scrollTop = 0; // Для Safari
+			document.documentElement.scrollTop = 0; // Для Chrome, Firefox, IE и Opera
+		}
+	</script>
+</body>
+
+</html>

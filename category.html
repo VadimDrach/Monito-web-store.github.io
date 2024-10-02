@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Category</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20241002142748">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body id="menuPageDrodDown">
+	<div class="wrapper">
+		<header class="header" id="header">
+			<div class="header__container">
+				<div class="header__block-left">
+					<a href="home.html" class="header__block-logo" title="Main page">
+						<img src="img/01.header/Logo.webp" alt="Image">
+					</a>
+					<div class="header__menu menu">
+						<button type="button" class="menu__icon icon-menu"><span></span></button>
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item"><a href="home.html" target="_self" class="menu__link">Home</a></li>
+
+								<li class="menu__item"><a href="category.html" target="_blank" class="menu__link">Category</a></li>
+
+								<li class="menu__item"><a href="#" class="menu__link">About</a></li>
+
+								<li class="menu__item"><a href="#" class="menu__link">Contact</a></li>
+							</ul>
+
+							<div class="header__block-rightTablet"></div>
+						</nav>
+					</div>
+
+					<button id="toggleButton" class="header__block-search _icon-search1"></button>
+				</div>
+				<div class="header__block-right">
+					<form action="#" class="header__block-form">
+						<button type="submit" class="header__block-btn _icon-search1"></button>
+						<input type="text" class="header__block-input" placeholder="Search something here!">
+					</form>
+
+					<button data-da=".header__block-rightTablet,991," class="header__block-btnJoin">Join the Commynity</button>
+
+					<div data-da=".header__block-rightTablet,991," class="dropdown">
+						<div class="dropdown-btn">
+							<img class="dropcontent-image" src="img/01.header/united-kingdom.webp" alt="Image">
+							En
+						</div>
+						<div class="dropdown-content">
+							<a href="#" data-lang="En"><img class="dropcontent-image" src="img/01.header/united-kingdom.webp" alt="Image"> En</a>
+							<a href="#" data-lang="Kz"><img class="dropcontent-image" src="img/01.header/kazakhstan.webp" alt="Image"> Kz</a>
+							<a href="#" data-lang="Uk"><img class="dropcontent-image" src="img/01.header/ukraine.webp" alt="Image"> Uk</a>
+							<!-- Добавьте другие языки по необходимости -->
+						</div>
+					</div>
+				</div>
+				<div id="hiddenBlock" class="header__blockSearch-tablet">
+					<form action="#" class="header__block-form header__input-tablet">
+						<button type="submit" class="header__block-btn _icon-search1"></button>
+						<input type="text" class="header__block-input" placeholder="Search something here!">
+					</form>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<section class="category">
+				<div class="category__container">
+					<nav class="category__breadcrumbs-nav" aria-label="breadcrumb">
+						<ul class="category__breadcrumbs-list">
+							<li class="category__breadcrumbs-item">
+								<a href="#" class="category__breadcrumbs-link">Home</a>
+							</li>
+							<li class="category__breadcrumbs-item">
+								<a href="#" class="category__breadcrumbs-link">Dog</a>
+							</li>
+							<li class="category__breadcrumbs-item">
+								Small dog
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</section>
+
+			<section class="secondmain__block">
+				<div class="secondmain__container category__category-mainBlock">
+					<div class="secondmain__block-right">
+						<img src="img/10.Category-Page/image-block.webp" class="second-first-img" alt="Image">
+						<img src="img/10.Category-Page/image-block2.webp" class="second-second-img" alt="Image">
+					</div>
+
+					<div class="main__block-left secondmain__block-right ">
+						<div class=" secondmain__block-content">
+							<h1 class="main__block-title category__other-color1">
+								One more friend <br>
+								<span>Thousands more fun!</span>
+							</h1>
+							<p class="main__block-text category__other-color2">
+								Having a pet means you have more joy, a new friend, a happy person who will always be with you to have
+								fun.
+								We have 200+
+								different pets that can meet your needs!
+							</p>
+							<div class="main__block-btns secondmain__block-right">
+								<a href="#" class="main__block-link1 category__other-color3">View Intro</a>
+								<a href="#" class="main__block-link2 category__other-color4">Explore Now</a>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</section>
+
+			<section class="categoryShop">
+				<div class="categoryShop__container">
+					<aside class="categoryShop__filter">
+						<div class="categoryShop__filter-header">
+							<p>Filter</p>
+						</div>
+
+						<div class="categoryShop__filter-gender">
+							<div class="categoryShop__filter-radio">
+								<label class="categoryShop__filter-label">Gender</label>
+
+								<div class="categoryShop__filter-labelItem">
+									<label class="categoryShop__filter-labelName">
+										<input type="checkbox" name="gender" value="male" class="categoryShop__filter-input">
+										<p>Male</p>
+									</label>
+								</div>
+								<div class="categoryShop__filter-labelItem">
+									<label class="categoryShop__filter-labelName">
+										<input type="checkbox" name="gender" value="female" class="categoryShop__filter-input">
+										<p>Female</p>
+									</label>
+								</div>
+							</div>
+						</div>
+
+						<div class="categoryShop__filter-color">
+							<div class="categoryShop__filter-radio">
+								<label class="categoryShop__filter-label">Color</label>
+
+								<div class="categoryShop__filter-labelItem">
+									<label class="categoryShop__filter-labelName">
+										<input type="checkbox" name="color" value="red" class="categoryShop__filter-input">
+
+										<div class="categoryShop__filter-inputColor" style="background-color: #FF564F;"></div>
+
+										<p>Red</p>
+									</label>
+								</div>
+
+								<div class="categoryShop__filter-labelItem">
+									<label class="categoryShop__filter-labelName">
+										<input type="checkbox" name="color" value="apricot" class="categoryShop__filter-input">
+
+										<div class="categoryShop__filter-inputColor" style="background-color: #FFB672;"></div>
+
+										<p>Apricot</p>
+									</label>
+								</div>
+
+								<div class="categoryShop__filter-labelItem">
+									<label class="categoryShop__filter-labelName">
+										<input type="checkbox" name="color" value="black" class="categoryShop__filter-input">
+
+										<div class="categoryShop__filter-inputColor" style="background-color: #242B33;"></div>
+
+										<p>Black</p>
+									</label>
+								</div>
+
+								<div class="categoryShop__filter-labelItem">
+									<label class="categoryShop__filter-labelName">
+										<input type="checkbox" name="color" value="black&white" class="categoryShop__filter-input">
+
+										<div class="categoryShop__filter-inputColor">
+											<div class="categoryShop__filter-multyColor" style="background-color: #242B33;"></div>
+											<div class="categoryShop__filter-multyColor" style="background-color: #D2D2D2;"></div>
+										</div>
+
+										<p>Black & White</p>
+									</label>
+								</div>
+
+								<div class="categoryShop__filter-labelItem">
+									<label class="categoryShop__filter-labelName">
+										<input type="checkbox" name="color" value="silver" class="categoryShop__filter-input">
+
+										<div class="categoryShop__filter-inputColor" style="background-color: #CECECE;"></div>
+
+										<p>Silver</p>
+									</label>
+								</div>
+
+								<div class="categoryShop__filter-labelItem">
+									<label class="categoryShop__filter-labelName">
+										<input type="checkbox" name="color" value="tan" class="categoryShop__filter-input">
+
+										<div class="categoryShop__filter-inputColor" style="background-color: #FFF7CE;"></div>
+
+										<p>Tan</p>
+									</label>
+								</div>
+							</div>
+						</div>
+
+						<div class="categoryShop__filter-price">
+							<div class="categoryShop__filter-radio price_filter">
+								<label class="categoryShop__filter-label">Price</label>
+
+								<div class="categoryShop__filter-inputs">
+									<div class="categoryShop__filter-inputBlock">
+										<!-- <label for="min-price">Min</label> -->
+										<input type="number" id="min-price" name="min-price" placeholder="Min">
+									</div>
+									<div class="categoryShop__filter-inputBlock">
+										<!-- <label for="max-price">Max</label> -->
+										<input type="number" id="max-price" name="max-price" placeholder="Max">
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="categoryShop__filter-breed">
+							<div class="categoryShop__filter-radio">
+								<label class="categoryShop__filter-label">Bleed</label>
+
+								<div class="categoryShop__filter-labelItem">
+									<label class="categoryShop__filter-labelName">
+										<input type="checkbox" name="bleed" value="small" class="categoryShop__filter-input">
+										<p>Small</p>
+									</label>
+								</div>
+
+								<div class="categoryShop__filter-labelItem">
+									<label class="categoryShop__filter-labelName">
+										<input type="checkbox" name="bleed" value="medium" class="categoryShop__filter-input">
+										<p>Medium</p>
+									</label>
+								</div>
+
+								<div class="categoryShop__filter-labelItem">
+									<label class="categoryShop__filter-labelName">
+										<input type="checkbox" name="bleed" value="large" class="categoryShop__filter-input">
+										<p>Large</p>
+									</label>
+								</div>
+							</div>
+						</div>
+					</aside>
+					<div class="categoryShop__shop">
+						<div class="categoryShop__shopHeader">
+							<div class="categoryShop__shopLeftBlock">
+								<div class="categoryShop__shopTitle">
+									<p id="shopTitleValue">Small Dog</p>
+								</div>
+								<div class="categoryShop__shopQuantity">
+									<p><span>52</span> puppies</p>
+								</div>
+							</div>
+							<div class="categoryShop__shopRightBlock">
+								<div class="categoryShop__dropdown">
+									<button class="categoryShop__dropdowntoggle" id="dropdownButtonMenu">
+										Sort by: Popular <span class="arrow">▼</span>
+									</button>
+									<ul class="categoryShop__dropdownmenu" id="dropdownMenuCategory">
+										<li><a href="#">Popular</a></li>
+										<li><a href="#">Newest</a></li>
+										<li><a href="#">Price: Low to High</a></li>
+										<li><a href="#">Price: High to Low</a></li>
+									</ul>
+								</div>
+
+								<div class="filter__mobileBtn">
+									<button class="filter__mobileBtn-button">
+										<img src="img/icon_img/Filter.webp" alt="Menu">
+										<p>Filter</p>
+									</button>
+								</div>
+
+							</div>
+						</div>
+						<div class="categoryShop__shopBody">
+							<a href="product_detale.html" target="_blank" class="shop__card-link">
+								<div class="shop__body-card" data-gender="male" data-color="red" data-price="6900000" data-date="2024-03-24" data-bleed="small" data-name="MO502">
+									<div class="shop__card-img">
+										<img src="img/03.shop/1.webp" alt="Image">
+									</div>
+									<div class="shop__card-content">
+										<div class="shop__card-name">
+											MO231 - Pomeranian White
+										</div>
+										<div class="shop__card-parametrs">
+											<div class="shop__card-gene">
+												<div class="shop__card-param">Gene:</div>
+												<div class="shop__card-value">Male</div>
+											</div>
+											<div class="shop__card-decore">
+
+											</div>
+											<div class="shop__card-age">
+												<div class="shop__card-param">Age:</div>
+												<div class="shop__card-value">02 months</div>
+											</div>
+										</div>
+										<div class="shop__card-price">6.900.000 VND</div>
+									</div>
+								</div>
+							</a>
+
+							<a href="product_detale.html" target="_blank" class="shop__card-link">
+								<div class="shop__body-card" data-gender="male" data-color="black" data-price="6500000" data-date="2023-09-01">
+									<div class="shop__card-img">
+										<img src="img/03.shop/2.webp" alt="Image">
+									</div>
+									<div class="shop__card-content">
+										<div class="shop__card-name">
+											MO502 - Poodle Tiny Yellow
+										</div>
+										<div class="shop__card-parametrs">
+											<div class="shop__card-gene">
+												<div class="shop__card-param">Gene:</div>
+												<div class="shop__card-value">Male</div>
+											</div>
+											<div class="shop__card-decore">
+
+											</div>
+											<div class="shop__card-age">
+												<div class="shop__card-param">Age:</div>
+												<div class="shop__card-value">02 months</div>
+											</div>
+										</div>
+										<div class="shop__card-price">6.500.000 VND</div>
+									</div>
+								</div>
+							</a>
+
+							<a href="product_detale.html" target="_blank" class="shop__card-link">
+								<div class="shop__body-card" data-gender="male" data-color="silver" data-price="4300000" data-date="2023-12-01">
+									<div class="shop__card-img">
+										<img src="img/03.shop/3.webp" alt="Image">
+									</div>
+									<div class="shop__card-content">
+										<div class="shop__card-name">
+											MO102 - Poodle Tiny Sepia
+										</div>
+										<div class="shop__card-parametrs">
+											<div class="shop__card-gene">
+												<div class="shop__card-param">Gene:</div>
+												<div class="shop__card-value">Male</div>
+											</div>
+											<div class="shop__card-decore">
+
+											</div>
+											<div class="shop__card-age">
+												<div class="shop__card-param">Age:</div>
+												<div class="shop__card-value">02 months</div>
+											</div>
+										</div>
+										<div class="shop__card-price">4.300.000 VND</div>
+									</div>
+								</div>
+							</a>
+
+							<a href="product_detale.html" target="_blank" class="shop__card-link">
+								<div class="shop__body-card" data-gender="female" data-color="apricot" data-price="3900000" data-date="2024-04-01" data-name="MO512 - Alaskan Malamute Grey">
+									<div class="shop__card-img">
+										<img src="img/03.shop/4.webp" alt="Image">
+									</div>
+									<div class="shop__card-content">
+										<div class="shop__card-name">
+											MO512 - Alaskan Malamute Grey
+										</div>
+										<div class="shop__card-parametrs">
+											<div class="shop__card-gene">
+												<div class="shop__card-param">Gene:</div>
+												<div class="shop__card-value">Male</div>
+											</div>
+											<div class="shop__card-decore">
+
+											</div>
+											<div class="shop__card-age">
+												<div class="shop__card-param">Age:</div>
+												<div class="shop__card-value">02 months</div>
+											</div>
+										</div>
+										<div class="shop__card-price">3.900.000 VND</div>
+									</div>
+								</div>
+							</a>
+
+							<a href="product_detale.html" target="_blank" class="shop__card-link">
+								<div class="shop__body-card" data-gender="male" data-color="red" data-price="2700000" data-date="2024-03-24">
+									<div class="shop__card-img">
+										<img src="img/03.shop/5.webp" alt="Image">
+									</div>
+									<div class="shop__card-content">
+										<div class="shop__card-name">
+											MO231 - Pomeranian White
+										</div>
+										<div class="shop__card-parametrs">
+											<div class="shop__card-gene">
+												<div class="shop__card-param">Gene:</div>
+												<div class="shop__card-value">Male</div>
+											</div>
+											<div class="shop__card-decore">
+
+											</div>
+											<div class="shop__card-age">
+												<div class="shop__card-param">Age:</div>
+												<div class="shop__card-value">02 months</div>
+											</div>
+										</div>
+										<div class="shop__card-price">2.700.000 VND</div>
+									</div>
+								</div>
+							</a>
+
+							<a href="product_detale.html" target="_blank" class="shop__card-link">
+								<div class="shop__body-card" data-gender="male" data-color="red" data-price="5100000" data-date="2024-01-15">
+									<div class="shop__card-img">
+										<img src="img/03.shop/6.webp" alt="Image">
+									</div>
+									<div class="shop__card-content">
+										<div class="shop__card-name">
+											MO231 - Pomeranian White
+										</div>
+										<div class="shop__card-parametrs">
+											<div class="shop__card-gene">
+												<div class="shop__card-param">Gene:</div>
+												<div class="shop__card-value">Male</div>
+											</div>
+											<div class="shop__card-decore">
+
+											</div>
+											<div class="shop__card-age">
+												<div class="shop__card-param">Age:</div>
+												<div class="shop__card-value">02 months</div>
+											</div>
+										</div>
+										<div class="shop__card-price">5.100.000 VND</div>
+									</div>
+								</div>
+							</a>
+
+							<a href="product_detale.html" target="_blank" class="shop__card-link">
+								<div class="shop__body-card" data-gender="male" data-color="red" data-price="1900000" data-date="2024-05-10">
+									<div class="shop__card-img">
+										<img src="img/03.shop/7.webp" alt="Image">
+									</div>
+									<div class="shop__card-content">
+										<div class="shop__card-name">
+											MO231 - Pomeranian White
+										</div>
+										<div class="shop__card-parametrs">
+											<div class="shop__card-gene">
+												<div class="shop__card-param">Gene:</div>
+												<div class="shop__card-value">Male</div>
+											</div>
+											<div class="shop__card-decore">
+
+											</div>
+											<div class="shop__card-age">
+												<div class="shop__card-param">Age:</div>
+												<div class="shop__card-value">02 months</div>
+											</div>
+										</div>
+										<div class="shop__card-price">1.900.000 VND</div>
+									</div>
+								</div>
+							</a>
+
+							<a href="product_detale.html" target="_blank" class="shop__card-link">
+								<div class="shop__body-card" data-gender="male" data-color="apricot" data-price="7400000" data-date="2024-08-17">
+									<div class="shop__card-img">
+										<img src="img/03.shop/8.webp" alt="Image">
+									</div>
+									<div class="shop__card-content">
+										<div class="shop__card-name">
+											MO231 - Pomeranian White
+										</div>
+										<div class="shop__card-parametrs">
+											<div class="shop__card-gene">
+												<div class="shop__card-param">Gene:</div>
+												<div class="shop__card-value">Male</div>
+											</div>
+											<div class="shop__card-decore">
+
+											</div>
+											<div class="shop__card-age">
+												<div class="shop__card-param">Age:</div>
+												<div class="shop__card-value">02 months</div>
+											</div>
+										</div>
+										<div class="shop__card-price">7.400.000 VND</div>
+									</div>
+								</div>
+							</a>
+
+							<a href="product_detale.html" target="_blank" class="shop__card-link">
+								<div class="shop__body-card" data-gender="male" data-color="red" data-price="4600000" data-date="2024-12-23">
+									<div class="shop__card-img">
+										<img src="img/03.shop/1.webp" alt="Image">
+									</div>
+									<div class="shop__card-content">
+										<div class="shop__card-name">
+											MO231 - Pomeranian White
+										</div>
+										<div class="shop__card-parametrs">
+											<div class="shop__card-gene">
+												<div class="shop__card-param">Gene:</div>
+												<div class="shop__card-value">Male</div>
+											</div>
+											<div class="shop__card-decore">
+
+											</div>
+											<div class="shop__card-age">
+												<div class="shop__card-param">Age:</div>
+												<div class="shop__card-value">02 months</div>
+											</div>
+										</div>
+										<div class="shop__card-price">4.600.000 VND</div>
+									</div>
+								</div>
+							</a>
+
+							<a href="product_detale.html" target="_blank" class="shop__card-link">
+								<div class="shop__body-card" data-gender="male" data-color="red" data-price="4400000" data-date="2024-06-11">
+									<div class="shop__card-img">
+										<img src="img/03.shop/2.webp" alt="Image">
+									</div>
+									<div class="shop__card-content">
+										<div class="shop__card-name">
+											MO231 - Pomeranian White
+										</div>
+										<div class="shop__card-parametrs">
+											<div class="shop__card-gene">
+												<div class="shop__card-param">Gene:</div>
+												<div class="shop__card-value">Male</div>
+											</div>
+											<div class="shop__card-decore">
+
+											</div>
+											<div class="shop__card-age">
+												<div class="shop__card-param">Age:</div>
+												<div class="shop__card-value">02 months</div>
+											</div>
+										</div>
+										<div class="shop__card-price">4.400.000 VND</div>
+									</div>
+								</div>
+							</a>
+
+							<a href="product_detale.html" target="_blank" class="shop__card-link">
+								<div class="shop__body-card" data-gender="female" data-color="silver" data-price="5500000" data-date="2022-10-03">
+									<div class="shop__card-img">
+										<img src="img/03.shop/3.webp" alt="Image">
+									</div>
+									<div class="shop__card-content">
+										<div class="shop__card-name">
+											MO231 - Pomeranian White
+										</div>
+										<div class="shop__card-parametrs">
+											<div class="shop__card-gene">
+												<div class="shop__card-param">Gene:</div>
+												<div class="shop__card-value">Male</div>
+											</div>
+											<div class="shop__card-decore">
+
+											</div>
+											<div class="shop__card-age">
+												<div class="shop__card-param">Age:</div>
+												<div class="shop__card-value">02 months</div>
+											</div>
+										</div>
+										<div class="shop__card-price">5.500.000 VND</div>
+									</div>
+								</div>
+							</a>
+
+							<a href="product_detale.html" target="_blank" class="shop__card-link">
+								<div class="shop__body-card" data-gender="female" data-color="red" data-price="6200000" data-date="2023-12-30">
+									<div class="shop__card-img">
+										<img src="img/03.shop/4.webp" alt="Image">
+									</div>
+									<div class="shop__card-content">
+										<div class="shop__card-name">
+											MO231 - Pomeranian White
+										</div>
+										<div class="shop__card-parametrs">
+											<div class="shop__card-gene">
+												<div class="shop__card-param">Gene:</div>
+												<div class="shop__card-value">Male</div>
+											</div>
+											<div class="shop__card-decore">
+
+											</div>
+											<div class="shop__card-age">
+												<div class="shop__card-param">Age:</div>
+												<div class="shop__card-value">02 months</div>
+											</div>
+										</div>
+										<div class="shop__card-price">6.200.000 VND</div>
+									</div>
+								</div>
+							</a>
+
+							<a href="product_detale.html" target="_blank" class="shop__card-link">
+								<div class="shop__body-card" data-gender="male" data-color="black" data-price="2400000" data-date="2024-01-01">
+									<div class="shop__card-img">
+										<img src="img/03.shop/5.webp" alt="Image">
+									</div>
+									<div class="shop__card-content">
+										<div class="shop__card-name">
+											MO231 - Pomeranian White
+										</div>
+										<div class="shop__card-parametrs">
+											<div class="shop__card-gene">
+												<div class="shop__card-param">Gene:</div>
+												<div class="shop__card-value">Male</div>
+											</div>
+											<div class="shop__card-decore">
+
+											</div>
+											<div class="shop__card-age">
+												<div class="shop__card-param">Age:</div>
+												<div class="shop__card-value">02 months</div>
+											</div>
+										</div>
+										<div class="shop__card-price">2.400.000 VND</div>
+									</div>
+								</div>
+							</a>
+
+							<a href="product_detale.html" target="_blank" class="shop__card-link">
+								<div class="shop__body-card" data-gender="female" data-color="red" data-price="1100000" data-date="2024-11-05">
+									<div class="shop__card-img">
+										<img src="img/03.shop/6.webp" alt="Image">
+									</div>
+									<div class="shop__card-content">
+										<div class="shop__card-name">
+											MO231 - Pomeranian White
+										</div>
+										<div class="shop__card-parametrs">
+											<div class="shop__card-gene">
+												<div class="shop__card-param">Gene:</div>
+												<div class="shop__card-value">Male</div>
+											</div>
+											<div class="shop__card-decore">
+
+											</div>
+											<div class="shop__card-age">
+												<div class="shop__card-param">Age:</div>
+												<div class="shop__card-value">02 months</div>
+											</div>
+										</div>
+										<div class="shop__card-price">1.100.000 VND</div>
+									</div>
+								</div>
+							</a>
+
+							<a href="product_detale.html" target="_blank" class="shop__card-link">
+								<div class="shop__body-card" data-gender="female" data-color="tan" data-price="900000" data-date="2024-10-28">
+									<div class="shop__card-img">
+										<img src="img/03.shop/7.webp" alt="Image">
+									</div>
+									<div class="shop__card-content">
+										<div class="shop__card-name">
+											MO231 - Pomeranian White
+										</div>
+										<div class="shop__card-parametrs">
+											<div class="shop__card-gene">
+												<div class="shop__card-param">Gene:</div>
+												<div class="shop__card-value">Male</div>
+											</div>
+											<div class="shop__card-decore">
+
+											</div>
+											<div class="shop__card-age">
+												<div class="shop__card-param">Age:</div>
+												<div class="shop__card-value">02 months</div>
+											</div>
+										</div>
+										<div class="shop__card-price">900.000 VND</div>
+									</div>
+								</div>
+							</a>
+
+						</div>
+						<div class="categoryShop__shopFooter">
+							<div class="categoryShop__shopPagination">
+								<button class="categoryShop__shop-prev" id="prevPageList">←</button>
+								<ul class="categoryShop__shop-page-list">
+									<li class="categoryShop__shop-page-item active"><a href="#" class="categoryShop__shop-page-link">1</a></li>
+									<li class="categoryShop__shop-page-item"><a href="#" class="categoryShop__shop-page-link">2</a></li>
+									<li class="categoryShop__shop-page-item"><a href="#" class="categoryShop__shop-page-link">3</a></li>
+									<li class="categoryShop__shop-page-item"><a href="#" class="categoryShop__shop-page-link">4</a></li>
+									<li class="categoryShop__shop-page-item"><a href="#" class="categoryShop__shop-page-link">...</a></li>
+									<li class="categoryShop__shop-page-item"><a href="#" class="categoryShop__shop-page-link">28</a></li>
+								</ul>
+								<button class="categoryShop__shop-next" id="nextPageList">→</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<button onclick="scrollToTop()" id="scrollTopBtn" title="Наверх">↑</button>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__register">
+					<div class="footer__register-content">
+						<p>
+							Register now so you don't miss our programs
+						</p>
+					</div>
+					<div class="footer__register-inputField">
+						<input autocomplete="off" type="text" name="form[]" data-error="Помилка" placeholder="Enter your Email" class="footer__register-input">
+						<button type="submit" class="footer__register-btn">Subscribe Now</button>
+					</div>
+				</div>
+				<div class="footer__firstFloor">
+					<div class="footer__firstFloor-menu">
+						<ul class="footer__firstFloor-list">
+							<li class="footer__firstFloor-item">
+								<a href="home.html" class="footer__firstFloor-link">Home</a>
+							</li>
+							<li class="footer__firstFloor-item">
+								<a href="category.html" class="footer__firstFloor-link">Category</a>
+							</li>
+							<li class="footer__firstFloor-item">
+								<a href="#" class="footer__firstFloor-link">About</a>
+							</li>
+							<li class="footer__firstFloor-item">
+								<a href="#" class="footer__firstFloor-link">Contact</a>
+							</li>
+						</ul>
+					</div>
+
+					<div class="footer__firstFloor-socials">
+						<ul class="footer__firstFloor-socialList">
+							<li class="footer__firstFloor-socialItem">
+								<a href="#" class="footer__firstFloor-socialLink _icon-Facebook" title="Facebook"></a>
+							</li>
+
+							<li class="footer__firstFloor-socialItem">
+								<a href="#" class="footer__firstFloor-socialLink _icon-Twitter" title="Twitter"></a>
+							</li>
+
+							<li class="footer__firstFloor-socialItem">
+								<a href="#" class="footer__firstFloor-socialLink _icon-Instagram" title="Instagram"></a>
+							</li>
+
+							<li class="footer__firstFloor-socialItem">
+								<a href="#" class="footer__firstFloor-socialLink _icon-Youtube" title="YouTube"></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="footer__secondFloor">
+					<p class="footer__secondFloor-rights">
+						© 2022 Monito. All rights reserved.
+					</p>
+
+					<a href="#" class="footer__secondFloor-logo">
+						<img src="img/09.footer/footer-logo.webp" alt="Image">
+					</a>
+
+					<div class="footer__secondFloor-details">
+						<a href="#" class="footer__secondFloor-detailsLink">Terms of Service</a>
+						<a href="#" class="footer__secondFloor-detailsLink">Privacy Policy</a>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="js/app.min.js?_v=20241002142748"></script>
+
+	<script>
+		// Показать кнопку, когда прокручено больше 20px от верха
+		window.onscroll = function() {
+			scrollFunction();
+		};
+
+		function scrollFunction() {
+			const scrollTopBtn = document.getElementById("scrollTopBtn");
+			if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+				scrollTopBtn.style.display = "block";
+			} else {
+				scrollTopBtn.style.display = "none";
+			}
+		}
+
+		// Прокрутить страницу вверх при нажатии на кнопку
+		function scrollToTop() {
+			document.body.scrollTop = 0; // Для Safari
+			document.documentElement.scrollTop = 0; // Для Chrome, Firefox, IE и Opera
+		}
+	</script>
+
+
+</body>
+
+</html>
